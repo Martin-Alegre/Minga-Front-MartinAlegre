@@ -1,8 +1,11 @@
+import Main from "./layouts/Main";
+import Index from "./pages/Index";
+
 export default function App() {
 
   return (
-      <div className="h-screen w-full bg-black p-0">
-
-      </div>
+      <Main>
+        <Index/>
+      </Main>
   )
 }
