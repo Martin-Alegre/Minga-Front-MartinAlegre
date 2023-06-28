@@ -12,7 +12,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="flex items-center w-[100%] h-[auto] justify-between md:w-[100%] md:h-[auto]">
+    <nav className="flex items-center w-[100%] h-[auto] justify-between md:w-[100%] md:h-[auto] relative z-10">
       <div className="max-w-screen mx-auto px-4 w-[100%]">
         <div className="flex items-center justify-between h-[100%] w-[100%]">
           <div className="flex w-[100%] ">
@@ -38,7 +38,7 @@ const NavBar = () => {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <img
-                className="flex items-center m-[21px] w-auto h-[32px] md:h-[70px] md:mt-[27px]"
+                className="flex items-center m-[21px] w-auto h-[32px] md:h-[45px] md:mt-[27px]"
                 src="/Logo 2 1.png"
                 alt="Logo"
               />
